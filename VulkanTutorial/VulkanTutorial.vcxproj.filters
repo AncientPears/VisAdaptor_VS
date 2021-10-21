@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dep">
+      <UniqueIdentifier>{90254494-a800-4b6e-b278-a2b770f714a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\lib\GLFW\lib\glfw3.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\dxcompiler.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\GenericCodeGen.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\GenericCodeGend.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\glslang.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\glslangd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\glslang-default-resource-limits.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\glslang-default-resource-limitsd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\HLSL.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\HLSLd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\MachineIndependent.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\MachineIndependentd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\OGLCompiler.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\OGLCompilerd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\OSDependent.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\OSDependentd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\shaderc.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\shaderc_combined.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\shaderc_combinedd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\shaderc_shared.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\shaderc_sharedd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\shaderc_util.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\shaderc_utild.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\shadercd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-c.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-cd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-core.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-cored.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-cpp.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-cppd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-c-shared.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-c-sharedd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-glsl.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-glsld.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-hlsl.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-hlsld.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-msl.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-msld.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-reflect.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-reflectd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-util.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\spirv-cross-utild.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRVd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Toolsd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-link.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-linkd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-lint.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-lintd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-opt.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-optd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-reduce.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-reduced.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-shared.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPIRV-Tools-sharedd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPVRemapper.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\SPVRemapperd.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\VkLayer_utils.lib">
+      <Filter>dep</Filter>
+    </Library>
+    <Library Include="C:\VulkanSDK\1.2.189.2\Lib\vulkan-1.lib">
+      <Filter>dep</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
