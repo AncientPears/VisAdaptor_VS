@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "af50b755-920a-4658-b341-c8b809d70367": {
+      "ProjectGuid": "af50b755-920a-4658-b341-c8b809d70367",
+      "DisplayName": "VulkanTutorial",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
